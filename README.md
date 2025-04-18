@@ -1,11 +1,36 @@
 # ⚙️ Predictive Maintenance for CNC Milling Machines
 
+> 🚀 Boosting uptime and reducing maintenance costs using machine learning for early fault detection in CNC milling operations.
+
+---
+
+## 👩‍💻 Contributors
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/sarohaanamika">
+        <img src="https://github.com/sarohaanamika.png" width="100px;" alt="Anamika Saroha"/><br />
+        <sub><b>Anamika Saroha</b></sub><br />
+        <sup>Lead Developer</sup>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Aashish-kamath">
+        <img src="https://github.com/Aashish-kamath.png" width="100px;" alt="Aashish S Kamath"/><br />
+        <sub><b>Aashish S Kamath</b></sub><br />
+        <sup>ML Engineer</sup>
+      </a>
+    </td>
+  </tr>
+</table>
+
+---
+
+
 ![maintenance](https://img.shields.io/badge/Machine%20Learning-Predictive%20Maintenance-blue?style=for-the-badge&logo=python)
 ![status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge&logo=github)
 
-	⁠*Contributors*:  
-	⁠[Anamika Saroha](https://github.com/sarohaanamika)  
-	⁠[Aashish S Kamath](https://github.com/Aashish-kamath)
 
 > 🚀 Boosting uptime and reducing maintenance costs using machine learning for early fault detection in CNC milling operations.
 
