@@ -19,4 +19,77 @@ This solution enables:
 
 ---
 
-## 📂 Project Structure
+---
+
+## 🔍 Dataset Description
+
+The dataset consists of real-time readings from CNC milling machines, including:
+
+| Feature              | Description                          |
+|---------------------|--------------------------------------|
+| Air temperature (°C) | Ambient air temp around the machine |
+| Process temperature  | Temperature during milling          |
+| Rotational speed     | RPM of the milling shaft            |
+| Torque               | Rotational force applied            |
+| Tool wear (min)      | Wear and tear of the tool           |
+| Target label         | Binary: Failure (1) or Normal (0)   |
+
+---
+
+## 🧠 ML Techniques Used
+
+- 📊 **Exploratory Data Analysis** (EDA)
+- 🧼 **Feature Engineering** (Statistical + Frequency domain)
+- 🔍 **Modeling**:
+  - Logistic Regression
+  - Random Forest
+  - XGBoost
+- 🧪 **Evaluation Metrics**:
+  - Accuracy, Precision, Recall, F1-score
+  - Confusion Matrix
+  - ROC-AUC
+
+- 🧠 **Model Explainability**:
+  - LIME (Local Interpretable Model-agnostic Explanations)
+  - SHAP (SHapley Additive exPlanations)
+
+---
+
+## 📈 Performance Snapshot
+
+| Model            | Accuracy | Precision | Recall | AUC   |
+|------------------|----------|-----------|--------|-------|
+| LogisticRegression | 92.4%   | 0.91      | 0.90   | 0.93  |
+| RandomForest     | 95.8%   | 0.96      | 0.94   | 0.97  |
+| XGBoost          | **97.2%** | **0.97**   | **0.96** | **0.98** |
+
+✔️ **XGBoost emerged as the top performer**, balancing accuracy with model interpretability.
+
+---
+
+## 📊 Dashboard
+
+An interactive Streamlit dashboard was built to:
+- Predict failures in real-time
+- Visualize sensor trends
+- Interpret predictions using SHAP & LIME
+
+📍 Coming Soon: Live demo deployment on HuggingFace Spaces!
+
+---
+
+## ⚡ Quick Start
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/sarohaanamika/Predictive_Maintenance_Milling_Machine.git
+cd Predictive_Maintenance_Milling_Machine
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run Jupyter Notebooks
+jupyter notebook
+
+# 4. Launch Dashboard (optional)
+streamlit run dashboards/app.py
