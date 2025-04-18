@@ -3,6 +3,10 @@
 ![maintenance](https://img.shields.io/badge/Machine%20Learning-Predictive%20Maintenance-blue?style=for-the-badge&logo=python)
 ![status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge&logo=github)
 
+	⁠*Contributors*:  
+	⁠[Anamika Saroha](https://github.com/sarohaanamika)  
+	⁠[Aashish S Kamath](https://github.com/Aashish-kamath)
+
 > 🚀 Boosting uptime and reducing maintenance costs using machine learning for early fault detection in CNC milling operations.
 
 ---
