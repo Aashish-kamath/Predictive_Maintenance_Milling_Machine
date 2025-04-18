@@ -12,14 +12,14 @@
       <a href="https://github.com/sarohaanamika">
         <img src="https://github.com/sarohaanamika.png" width="100px;" alt="Anamika Saroha"/><br />
         <sub><b>Anamika Saroha</b></sub><br />
-        <sup>Lead Developer</sup>
+
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/Aashish-kamath">
         <img src="https://github.com/Aashish-kamath.png" width="100px;" alt="Aashish S Kamath"/><br />
         <sub><b>Aashish S Kamath</b></sub><br />
-        <sup>ML Engineer</sup>
+        
       </a>
     </td>
   </tr>
